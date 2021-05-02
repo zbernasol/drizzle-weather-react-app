@@ -1,14 +1,18 @@
 import React from "react";
 import Weather from "./Weather";
+import Footer from "./Footer";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Weather App</h1>
-      <Weather />
+      <div className="container">
+        <Weather currentCity="Toronto" />
+      </div>
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }
-
 export default App;

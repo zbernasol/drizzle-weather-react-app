@@ -3,7 +3,7 @@
   border: 1px solid #ffffff52;
   border-radius: 15px;
   background: rgb(41, 46, 71);
-  height: 300px;
+  height: 350px;
   width: 300px;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 5);
   display: block;
@@ -11,7 +11,8 @@
   margin-top: 50px;
 }
 
-h1 {
+h1,
+h2 {
   text-align: center;
   color: rgba(255, 255, 255, 0.651);
 }
