@@ -1,0 +1,13 @@
+button {
+  background: rgba(245, 189, 7, 0.918);
+  border-radius: 10px;
+}
+
+ul {
+  list-style: none;
+  color: white;
+}
+
+.searchBox {
+  text-align: center;
+}
