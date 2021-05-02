@@ -3,7 +3,7 @@
   border: 1px solid #ffffff52;
   border-radius: 15px;
   background: rgb(41, 46, 71);
-  height: 350px;
+  height: 400px;
   width: 300px;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 5);
   display: block;
@@ -15,4 +15,9 @@ h1,
 h2 {
   text-align: center;
   color: rgba(255, 255, 255, 0.651);
+}
+
+.App footer {
+  font-size: 13px;
+  margin: 10px, 0;
 }

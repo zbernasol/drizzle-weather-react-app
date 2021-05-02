@@ -1,6 +1,5 @@
 import React from "react";
 import Weather from "./Weather";
-import Footer from "./Footer";
 import './App.css';
 
 function App() {
@@ -10,7 +9,9 @@ function App() {
         <Weather currentCity="Toronto" />
       </div>
       <div>
-        <Footer />
+        <footer>
+          <a href="https://github.com/zbernasol/drizzle-weather-react-app">Open-source code</a> by <a href="https://www.linkedin.com/in/zian-angelica-bernasol-6a190a113/">Zian Bernasol</a>
+      </footer>
       </div>
     </div>
   );
